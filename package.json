@@ -1,0 +1,44 @@
+{
+  "name": "react-jouter",
+  "version": "1.0.0",
+  "description": "React provider component for Jouter client-side routing library",
+  "main": "dist/react-jouter.js",
+  "scripts": {
+    "test": "jest",
+    "test:start": "jest --watch",
+    "build": "babel react-jouter.js -o dist/react-jouter.js",
+    "build:min": "babel react-jouter.js -o dist/react-jouter.min.js --minified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxbunny/react-jouter.git"
+  },
+  "keywords": [
+    "react",
+    "routing",
+    "jouter"
+  ],
+  "author": "Hajime Yamasaki Vukelic <hayavuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxbunny/react-jouter/issues"
+  },
+  "homepage": "https://github.com/foxbunny/react-jouter#readme",
+  "dependencies": {
+    "react": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "enzyme": "^2.6.0",
+    "jest": "^18.0.0",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
