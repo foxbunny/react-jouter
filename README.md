@@ -4,9 +4,9 @@ react-jouter provides a provider component for React-based applications that
 gives child components access to the routing methods of a
 [Jouter](https://github.com/foxbunny/jouter#readme) router object.
 
-[![Build Status](https://travis-ci.org/foxbunny/react-jouter.svg?branch=master)](https://travis-ci.org/foxbunny/jouter)
-[![codecov](https://codecov.io/gh/foxbunny/react-jouter/branch/master/graph/badge.svg)](https://codecov.io/gh/foxbunny/jouter)
-[![npm version](https://badge.fury.io/js/react-jouter.svg)](https://badge.fury.io/js/jouter)
+[![Build Status](https://travis-ci.org/foxbunny/react-jouter.svg?branch=master)](https://travis-ci.org/foxbunny/react-jouter)
+[![codecov](https://codecov.io/gh/foxbunny/react-jouter/branch/master/graph/badge.svg)](https://codecov.io/gh/foxbunny/react-jouter)
+[![npm version](https://badge.fury.io/js/react-jouter.svg)](https://badge.fury.io/js/react-jouter)
 
 ## Compatibility
 
