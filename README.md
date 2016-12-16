@@ -123,6 +123,7 @@ import App from './App'
 
 const store = createStore(viewReducer, {view: 'main'})
 
+// The secret sauce:
 const decorator = routeHandler =>
   // Inject store.dispatch into all route handlers' arguments
   (...args) => routeHandler(store.dispatch.bind(store), ...args)
