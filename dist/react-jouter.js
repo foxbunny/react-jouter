@@ -140,8 +140,11 @@
         return new (Function.prototype.bind.apply(component, [null].concat([enhancedProps, context], args)))().render();
       }
     };
+
     wrapper.contextTypes = ProvideRouter.childContextTypes;
+
     component.contextTypes = Object.assign(component.contextTypes || {}, ProvideRouter.childContextTypes);
+
     return wrapper;
   };
 });
