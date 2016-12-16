@@ -160,7 +160,7 @@ to stop by and star it!
 ## Reporting issues
 
 If you need to report an issue or request a new feature, please use the [GitHub
-issue tracker](https://github.com/foxbunny/jouter/issues).
+issue tracker](https://github.com/foxbunny/react-jouter/issues).
 
 ## License
 
