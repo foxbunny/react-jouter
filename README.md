@@ -35,7 +35,6 @@ We won't go into too much detail on how to work with Jouter itself. Please refer
 to the [Jouter's README](https://github.com/foxbunny/jouter#readme) for its own 
 documentation.
 
-
 ```javascript
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
